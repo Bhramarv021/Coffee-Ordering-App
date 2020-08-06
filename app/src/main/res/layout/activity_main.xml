@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/main_layout_design"
+        android:text="@string/heading_quantity" />
+
+    <TextView
+        android:id="@+id/quality_text_view"
+        style="@style/main_layout_design"
+        android:textColor="@android:color/black"
+        android:text="@string/number_of_coffee" />
+
+    <TextView
+        style="@style/main_layout_design"
+        android:text="@string/heading_price" />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        style="@style/main_layout_design"
+        android:textColor="@android:color/black"
+        android:text="@string/order_price" />
+
+    <Button
+        android:id="@+id/order_button"
+        style="@style/main_layout_design"
+        android:text="@string/order_button"
+        android:onClick="submitOrder"/>
+
+</LinearLayout>
